@@ -6,7 +6,7 @@ This repository contains my winning autonomous AI agent for a highly competitive
 
 By winning matches, agents climbed a global leaderboard against every other student taking the course. **My solution ultimately won the entire competition.**
 
-## ⚔️ The Environment
+## The Environment
 
 The game places your snake on a map with several hazards and competitors. The game runs for a set time limit (about 5 minutes), and the goal is to be the longest snake on the board when the clock runs out. 
 
@@ -15,7 +15,7 @@ The board consists of:
 * **3 Zombie Snakes:** Hostile NPC snakes that actively hunt you down.
 * **Map Obstacles:** Static hazards scattered around the board that result in instant death upon collision.
 
-## 🧠 The Winning Algorithm: Voronoi Space Control
+## The Winning Algorithm: Voronoi Space Control
 
 My algorithm's logic is simple: **the snake goes for the apple if it is the closest one to it, and if it isn't, it tries to move into the biggest open space.** 
 
@@ -28,3 +28,12 @@ To solve this, my code dynamically creates a **Voronoi diagram** of the game boa
 2. **Execute Move:** It chooses the direction that maximizes this territory.
 
 This approach is conceptually simple, but its robust spatial control ended up consistently outperforming more complex A* pathfinding algorithms and many other creative solutions built by the rest of the cohort.
+
+
+
+
+<img width="1262" height="888" alt="image" src="https://github.com/user-attachments/assets/633a5a28-1993-4a1f-ae07-77944d014ec1" />
+
+
+
+

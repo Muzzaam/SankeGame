@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SankeGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SankeGame_jar</output-path>
+    <root id="archive" name="SankeGame.jar">
+      <element id="module-output" name="SankeGame" />
+      <element id="extracted-dir" path="$USER_HOME$/OneDrive/Desktop/SnakeRunner.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
